@@ -1,51 +1,79 @@
-#imgba {
-    height: 50px;
-    padding-left: 60px;
+/* navbar */
+
+.my-color{
+    background-color: #353a40;
+    height: 65px;
     
 }
 
-#ba {
+
+#codoacodo {
+    height: 50px;
+    padding-left: 60px;
+    position: relative;
+   
+    
+}
+
+.Conf-Bs-As {
     color:rgb(231, 231, 225);
     font-size: 18px;
     padding-top: 15px;
+    margin-left: -15px;
+    text-decoration: none;
 }
 
-#lc {
+.La-conferencia{
     color:rgb(237, 234, 234);
     font-size: 14px;
     padding-top:20px;
     padding-left: 200px;
+    text-decoration: none;
 }
 
-#lo {
+.Los-oradores {
     color: rgb(142, 140, 140);
     font-size:14px;
     padding-top: 20px;
     padding-left:12px;
+    text-decoration: none;
 }
 
-#ella {
+.El-lugar {
     color: rgb(142, 140, 140);
     font-size:14px;
     padding-top: 20px;
     padding-left:12px;
+    text-decoration: none;
 
 }
 
-#co {
+.Conviértete {
     color: rgb(142, 140, 140);
     font-size:14px;
     padding-top: 20px;
     padding-left:12px;
+    text-decoration: none;
 }
 
-#ct {
+.Comprar-tickets {
     color: rgb(78, 153, 75);
     font-size:14px;
     padding-top: 20px;
     padding-left:12px;
+    text-decoration: none;
+}
+@media screen and (max-width: 992px){
+    .my-color, #codoacodo, .Conf-Bs-As, .La-conferencia, .Los-oradores, .El-lugar, .Conviértete, .Comprar-tickets{
+        width: 100%;
+    }
 }
 
+
+
+
+
+/*  background image  */
 
 #imgb1 {
     max-height: 600px;
@@ -53,14 +81,13 @@
     position: absolute;
     left: 0px;
     top: -40px;
-    
     z-index: -1;
     filter: brightness(50%);
    
 
 }
 
-#p1 {
+#paragraph {
     color: #fff;
     font-size: 13.6px;
     font-weight: 400;
@@ -68,7 +95,7 @@
     text-align: right;
 }
 
-#h2 {
+#titulo-conf {
     color: #fff;
     padding-top: 155px;
     padding-right: 85px;
@@ -97,10 +124,18 @@
     border-radius: 3px;
     padding: 6px;
 }
+@media screen and (max-width: 992px){
+    #imgb1, #paragraph, #titulo-conf, .button, #b1, #b2 {
+        max-width: 100%;
+    }
+    
+}
 
 
 
-#PC {
+/* titles above cards */
+
+#conoce {
     padding-top: 150px;
     text-align: center;
     color:black;
@@ -108,7 +143,7 @@
     padding-bottom:0px;
 }
 
-#OR {
+#oradores {
     text-align: center;
     color:rgb(35, 34, 34);
     font-size:25px;
@@ -120,21 +155,235 @@
 }
 
 
-.container {
-   
-    
-    padding-top: 10px;
-    display:flex;
+
+
+/*  cards   */
+
+#cards {
+    position: relative;
+   padding-top: 1%;
+}
+
+#js {
+    font-size:8px;
     
 }
 
-.column {
-    width: 300px;
-    padding-left:25px;
-    position: relative;
-    
-    
-  
-    
+#react {
+    font-size:8px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+
+
+.card-title {
+    margin-top: -15px;
+}
+
+#negocios {
+    font-size:8px;
+}
+
+#startup {
+    font-size:8px;
+    margin-left: -10px;
+}
+
+.badge {
+    background-color:#fbbe08;
+    color:rgb(16, 16, 16);
+    font-weight: bold;
+
     
 }
+
+
+
+/*    two photos & text  & button inside it     */
+
+#hono {
+    width: 100%;
+}
+
+.col-6 {
+    background-color:#353a40;
+    max-height: 50%;
+}
+
+.col-6 h4{
+    color: #fff;
+    text-align:left;
+    padding-top:3%;
+}
+   
+
+.col-6 p {
+    color: #fff;
+    text-align:left;
+    font-size: 0.63em;
+}
+
+#bc {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-top: 0em;
+    font-size: 0.63em;
+}
+
+
+
+
+/*     two small titles    */
+
+#CO {
+    margin-top: 2em;
+    text-align: center;
+    font-size:0.60em;
+}
+
+#OR {
+    text-align: center;
+    color:rgb(57, 55, 55);
+    font-size:25px;
+    padding-top:0%;
+    z-index: 2;
+    margin-top:-1px;
+    line-height:0px;
+    padding-bottom:0px;
+}
+#anot {
+    margin-top: 2em;
+    text-align: center;
+    font-size:0.75em;
+    
+}
+#dotted{
+    text-decoration: underline rgb(1, 36, 9) dotted;
+
+
+}
+
+
+
+/*         input form        */
+
+#name{
+    max-height:40px;
+    max-width:50%;
+    padding: 0.1em;
+    font-size: 12px;
+    margin-left: 265px;
+    margin-top:-10px;
+    position: relative;
+    
+}
+#lastname {
+    max-height:40px;
+    max-width:50%;
+    padding: 0.1em;
+    font-size: 12px;
+    margin-left: 3px;
+    margin-top:-10px;
+    position: relative;
+
+}
+
+
+#floatingTextarea2{
+    max-height:80px;
+    max-width:51%;
+    margin-left:265px ;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #727578;
+    padding-top:5px;
+}
+
+#recordar {
+    font-size:9px;
+    margin-left:265px;
+    margin-top:5px;
+    color: rgb(138, 135, 142);
+}
+
+#new-color {
+    background-color:rgb(135, 207, 64);
+    color:#fff;
+    max-width: 51%;
+    position: relative;
+    margin-left: 265px;
+    margin-top: -5px;
+}
+
+
+
+
+/*      footer     */
+
+.my-color-end {
+    background-image: linear-gradient(to right, #1c3846 , #1e516f);
+    margin-top:1%;
+    max-height: 70px;
+    margin-bottom: 0%;
+}
+
+#Preguntas {
+    color: #fff;
+    margin-left: 12%;
+    font-size:10px;
+    padding:30px;
+}
+
+#contact {
+    color: #fff;
+    font-size:10px;
+    margin-top: 10%;
+    padding:30px;
+}
+
+#Prensa{
+    color: #fff;
+    font-size:10px;
+    margin-top: 14%;
+    padding:30px;
+
+}
+
+#Conferencias{
+    color: #fff;
+    font-size:10px;
+    margin-top: 10%;
+    padding:30px;
+}
+
+#Términos {
+    color: #fff;
+    font-size:10px;
+    padding:30px;
+    
+}
+
+#Privacidad {
+    color: #fff;
+    font-size:10px;
+    margin-top: 10%;
+    padding:30px;
+}
+
+#Estudiantes{
+    color: #fff;
+    font-size:10px;
+    margin-top: 10%;
+    padding:30px;
+}
+
+
+  
+    
+
+
+
+
+
