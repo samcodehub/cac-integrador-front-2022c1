@@ -2,14 +2,16 @@
 
 .my-color{
     background-color: #353a40;
-    height: 65px;
+    height: 4.06rem;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
 
 #codoacodo {
-    height: 50px;
-    padding-left: 60px;
+    height: 3.125rem;
+    padding-left: 3.75rem;
     position: relative;
    
     
@@ -17,33 +19,34 @@
 
 .Conf-Bs-As {
     color:rgb(231, 231, 225);
-    font-size: 18px;
-    padding-top: 15px;
-    margin-left: -15px;
+    font-size: 1.125rem;
+    padding-top: 0.9375rem;
+    margin-left: -0.9375rem;
     text-decoration: none;
+    
 }
 
 .La-conferencia{
     color:rgb(237, 234, 234);
-    font-size: 14px;
-    padding-top:20px;
-    padding-left: 200px;
+    font-size: 0.875rem;
+    padding-top:1.25rem;
+    padding-left: 12.5rem;
     text-decoration: none;
 }
 
 .Los-oradores {
     color: rgb(142, 140, 140);
-    font-size:14px;
-    padding-top: 20px;
-    padding-left:12px;
+    font-size:0.875rem;
+    padding-top: 1.25rem;
+    padding-left:0.75rem;
     text-decoration: none;
 }
 
 .El-lugar {
     color: rgb(142, 140, 140);
-    font-size:14px;
-    padding-top: 20px;
-    padding-left:12px;
+    font-size:0.875rem;
+    padding-top: 1.25rem;
+    padding-left:0.75rem;
     text-decoration: none;
 
 }
